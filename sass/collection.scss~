@@ -1,0 +1,264 @@
+@import 'index';
+.collection-page{
+		background:#e2e2e3;
+
+	.logo{
+		position: relative;
+		margin-left: 0;
+		padding-top: 20px;
+		width:auto;
+		background: #334259;
+		@media only screen and (min-width: 768px) and (max-width:1074px){
+            left:0;
+            padding-left:12%;
+          }
+	}
+	.menu-bar{
+		
+	}
+}
+.pendants-collection{
+	.p-collection{
+			margin:0 auto;
+			float: none;
+			div{
+				padding:0;
+
+
+
+
+					
+				.pendantblock{
+					margin-left: 0;
+					margin-right: 0;
+					
+				}
+				.lst-blck{
+					.row{
+						margin-left: 0;
+						margin-right: 0;
+					}
+				}
+				.big-imag {
+    				padding: 1px;
+
+					}
+				.pndnt{
+					padding:1px;
+				}
+				.big-imag1{
+					padding:1px;
+				}
+				.lst-blck{
+					padding:1px;
+				}
+			}
+		
+		
+	}
+}
+.pendants{
+
+	font-size:50px;
+	font-family:Aileron-UltraLight;
+	font-weight:bold;
+	color:#4c4c4c;
+	border-top:3px solid #898989;
+	border-bottom:3px solid #898989;
+
+	   .items{
+	   		padding-top:15px;
+			padding-bottom:15px;
+				@media screen and (max-width: 767px){
+					padding-bottom:0;
+					padding-top:0;
+				}
+	   }
+	   .items1{
+	   		padding-top:15px;
+			padding-bottom:15px;
+
+			 @media screen and (max-width: 767px){
+			 	padding-top:0;
+			 	padding-bottom:0;
+			 	padding-left:0;
+			 	margin-left: 15px;
+			 }
+
+	   }
+	 @media only screen and (min-width:100px) and (max-width:1093px){
+			  	font-size: 27px;
+			  }
+	 
+		span{
+			font-size: 16px;
+			color:#a1a1a2;
+				&#filter{
+					color: #4c4c4c;
+				}
+			 @media only screen and (min-width:100px) and (max-width:1093px){
+			  	font-size: 12px;
+			  }
+		}
+		.items{
+			padding-left:8%;
+			 
+
+		}
+}
+.Details{
+		margin-top: -42%;
+	.caption{
+		h{
+			font-size: 24px;
+			color: #c4942f;
+			font-family: Aileron-UltraLight;
+			font-weight: bold;
+			@media only screen and (min-width:768px) and (max-width:1053px){
+				font-size: 19px;
+			}
+			@media screen and (max-width: 393px){
+				font-size: 17px;
+			}
+
+		}
+		p{
+			font-size: 16px;
+			font-family: Aileron-UltraLight;
+			line-height: 15px;
+			padding-top:3%;
+			color: #b9c4d3;
+				&#hde{
+					@media only screen and (min-width:768px) and (max-width:1053px){
+						display: none;
+					}
+					@media only screen and (min-width:100px) and (max-width:589px){
+						display: none;
+					}
+				}
+			
+				&#price{
+					font-size: 14px;
+					color: #a27c30;
+					font-family: Aileron-UltraLight;
+					line-height: 13px;
+					font-weight: bold;
+					padding-bottom:1%;
+						br{
+							@media only screen and (min-width:100px) and (max-width:1053px){
+								display: none;
+							}
+						}
+					@media only screen and (min-width:768px) and (max-width:1053px){
+						font-size: 11px;
+					}
+					@media screen and (max-width: 479px){
+						font-size: 10px;
+						line-height: 10px;
+					}
+				}
+		}
+	}
+	
+}
+.addtocard{
+	margin-top:-8%;
+	z-index:999;
+	 @media screen and (max-width:1053px){
+	 	margin-top: -19%;
+	 }
+		div{
+			float:left;
+			@media only screen and (min-width:768px) and (max-width:1053px){
+				clear:both;
+			}
+			@media only screen and (min-width:100px) and (max-width:589px){
+				clear:both;
+			}
+	button{
+		font-size: 14px;
+		width:115px;
+		border-radius:0;
+		background:#35445b;
+		font-family: Aileron-Thin;
+		border:1px solid #b9c4d3;
+		color: #b9c4d3;
+		font-weight: bold;
+		
+
+	}
+	.space{
+			margin-left: 20px;
+			
+			@media only screen and (min-width:768px) and (max-width:1053px){
+				margin-left:50px;
+				margin-top:5px;
+				margin-bottom:5px;
+			}
+			@media only screen and (min-width:360px) and (max-width:589px){
+				margin-left: 40px;
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+			@media screen and (max-width:359px){
+				margin-left: 30px;
+				margin-top: 1px;
+				margin-bottom: 1px;
+			}
+			
+		}
+	.space1{
+		
+		@media only screen and (min-width:768px) and (max-width:1053px){
+				margin-left:50px;
+				margin-top:0px;
+				margin-bottom:5px;
+			}
+			@media only screen and (min-width:360px) and (max-width:589px){
+				margin-left: 40px;
+				margin-top: 0px;
+				margin-bottom: 5px;
+			}
+			@media screen and (max-width:359px){
+					margin-left: 30px;
+					margin-top: 0px;
+					margin-bottom: 1px;
+			}
+	}
+	}
+}
+.footer-cnt{
+	z-index:0;
+}
+.detail-blck{
+	display:none;
+	 p{
+	 	
+	 	&#name{
+	 		font-family: Aileron-Bold;
+	 		font-size: 16px;
+	 		color: #c4942f;
+
+	 	}
+	 	&#price{
+	 		color: #b9c4d3;
+	 		font-family: Aileron-UltraLight;
+	 		font-size: 16px;
+	 		font-weight: bold;
+			line-height:15px;
+	 	}
+
+	 }
+	 button{
+	 		background: none repeat scroll 0 0 #35445b;
+    		border: 1px solid #b9c4d3;
+    		border-radius: 0;
+    		color: #b9c4d3;
+    		font-family: Aileron-Thin;
+    		font-size: 14px;
+    		font-weight: bold;
+		margin-top:5px;
+ 
+
+	 }
+}
